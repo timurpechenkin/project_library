@@ -14,6 +14,7 @@ public class Main {
             userInput = scan.nextLine();
             executeCommand(userInput, bookManager);
         } while (!userInput.equals("STOP"));
+        
         scan.close();
 
         System.out.print("The the Library was closed");
